@@ -2,18 +2,20 @@
     "compilerOptions": {
         // 代码环境
         "lib": [
-            "ES2015"
+            "ES2015",
+            "DOM"
         ],
         // 使用指定的模块化规范
         "module": "CommonJS",
         // 编译完成的代码输出位置
         "outDir": "dist",
         // 源码地图
-        "sourceMap": true,
+        "sourceMap": false,
         // 检查无效代码时尽量严格
         "strict": true,
         // 编译目标
-        "target": "ES2020"
+        "target": "ES2020",
+        // "strictBindCallApply": true, // 启动strict后自动启动该项
     },
     // ts文件所在文件夹
     "include": [
