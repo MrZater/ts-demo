@@ -12,7 +12,7 @@
         // 源码地图
         "sourceMap": false,
         // 检查无效代码时尽量严格
-        "strict": true,
+        "strict": false,
         // 编译目标
         "target": "ES2020",
         // "strictBindCallApply": true, // 启动strict后自动启动该项
