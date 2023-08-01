@@ -16,6 +16,8 @@
         // 编译目标
         "target": "ES2020",
         // "strictBindCallApply": true, // 启动strict后自动启动该项
+        "noImplicitAny": true, // 开启对隐式any的检查
+        "noImplicitThis": true
     },
     // ts文件所在文件夹
     "include": [

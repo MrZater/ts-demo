@@ -250,3 +250,4 @@
 // console.log(is('123', '123'));
 // console.log(is(1, 3, 4, 5));
 // console.log(is(1, 1, 1, 1));
+
