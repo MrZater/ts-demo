@@ -1,23 +1,21 @@
 {
     "compilerOptions": {
-        // 代码环境
-        "lib": [
-            "ES2015",
-            "DOM"
-        ],
-        // 使用指定的模块化规范
-        "module": "CommonJS",
-        // 编译完成的代码输出位置
-        "outDir": "dist",
-        // 源码地图
+        "target": "es2016", //配置编译目标代码的版本标准
+        "module": "commonjs", //配置编译目标使用的模块化标准
+        "lib": ["es2016"],
+        "outDir": "./dist",
+        "strictNullChecks": true,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "noEmitOnError": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": true,
         "sourceMap": false,
-        // 检查无效代码时尽量严格
-        "strict": false,
-        // 编译目标
-        "target": "ES2020",
-        // "strictBindCallApply": true, // 启动strict后自动启动该项
-        "noImplicitAny": true, // 开启对隐式any的检查
-        "noImplicitThis": true
+        "typeRoots": ["./node_modules/@types", "./src/types"]
     },
     // ts文件所在文件夹
     "include": [
